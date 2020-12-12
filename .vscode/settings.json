@@ -4,8 +4,8 @@
     ".vscode-test": true,
     ".vscode/ipch": true,
     "node_modules": true,
-    "dist": true,
-    "out": true
+    "dist": true
+    // "out": true
   },
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
@@ -113,9 +113,7 @@
   },
   "json.schemas": [
     {
-      "fileMatch": [
-        "/syntaxes/cpp.testOutput.tmLanguage.json"
-      ],
+      "fileMatch": ["/syntaxes/cpp.testOutput.tmLanguage.json"],
       "url": "/src/tmLanguage.schema.json"
     }
   ],
